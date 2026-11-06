@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "RobotoFlex";
+    src: url(RobotoFlex.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+#container {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* background-color: rgb(63, 53, 63); */
+    height: auto;
+    width: 100vw;
+    padding: 20px;
+    font-size: 5vh;
+    color: white;
+    font-family: "RobotoFlex";
+    font-variation-settings: "wdth" 200, "wght" 500, "slnt" -10.0; 
+}
+
+span{
+    color: red;
+    display: inline-block;
+    margin: -0.1em;
+    padding: 0.2em;
+    box-shadow: 10px 5px 5px red;
+}
